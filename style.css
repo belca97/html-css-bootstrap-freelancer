@@ -24,7 +24,7 @@
 }
 
 .box{
-    height: 100px;
+    height: 50px;
 }
 
 .mp_float-left-10{
@@ -55,7 +55,7 @@
 
 
 header{
-    height: 100px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ header{
     background-color: aqua;
     text-align: center;
     color: white;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -110,11 +110,42 @@ header{
 /* fine portfolio */
 
 
-/* inizio main e foto */
+/* inizio main foto e about */
 
 main img{
     padding: 10px 0px;
     width: 100%;
 }
 
-/* fine main e foto */
+
+.mp_about{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.mp_about p{
+    margin-bottom: 10px;
+}
+
+.mp_about button{
+    margin-bottom: 10px;
+}
+
+/* fine main foto  about */
+
+
+/* inizio contatti */
+
+.mp_contact{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mp_contact h2{
+    margin-bottom: 10px;
+}
+
+
+/* fine contatti */
