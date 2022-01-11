@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.mp_flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp_flex-end{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.mp_flex-start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+}
+
+.mp_float-left-10{
+    float: left;
+    width: 10%;
+}
+
+.mp_float-left-45{
+    float: left;
+    width: 45%;
+}
+
+
+.mp_container{
+    width: 50%;
+    clear: both;
+    content: "";
+    display: table;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* fine regole generali */
+
+/* inizio header */
+
+
+header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(35, 35, 80);
+    color: white;
+}
+
+/* fine header */
+
+
+/* inizio jumbotron */
+
+.jumbotron{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+
+.mp_whiteline{
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.mp_avatar{
+    height: 200px;
+    width: 200px;
+}
+
+.jumbotron p{
+    margin-top: 10px;
+   padding-bottom: 10px;
+}
+/* fine jumbotron */
+
+/* inizio portfolio */
+.mp_portfolio{
+    color: rgb(35, 35, 80);
+    text-align: center;
+}
+
+.mp_darkblueline{
+    height: 3px;
+    width: 50px;
+    background-color: rgb(35, 35, 80);
+    border-radius: 2px;
+}
+/* fine portfolio */
+
+
+/* inizio main e foto */
+
+main img{
+    padding: 10px 0px;
+    width: 100%;
+}
+
+/* fine main e foto */
