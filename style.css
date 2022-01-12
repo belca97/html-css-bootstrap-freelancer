@@ -133,8 +133,21 @@ main img{
 
 /* inizio contatti */
 
-.mp_contact h2{
-    margin-bottom: 10px;
+/* fine contatti */
+
+/* inizio footer */
+
+.mp_footer-top{
+    background-color: #2c3e50;
 }
 
-/* fine contatti */
+.mp_footer-bottom{
+    background-color: #3a546d;
+}
+
+.mp_footer-top .container .row .mp_in:hover{
+    border-bottom: 1 px solid green;
+    color: green;
+}
+
+/* fine footer */
