@@ -49,6 +49,10 @@
     justify-content: center;
 }
 
+.mp_background-darkblue{
+    background-color: rgb(35, 35, 80);
+}
+
 /* fine regole generali */
 
 /* inizio header */
@@ -60,8 +64,6 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(35, 35, 80);
-    color: white;
 }
 
 /* fine header */
@@ -119,18 +121,11 @@ main img{
 
 
 .mp_about{
+    width: 100%;
     background-color: aqua;
     text-align: center;
     color: white;
     margin-top: 20px;
-}
-
-.mp_about p{
-    margin-bottom: 10px;
-}
-
-.mp_about button{
-    margin-bottom: 10px;
 }
 
 /* fine main foto  about */
@@ -140,7 +135,7 @@ main img{
 
 .mp_contact{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .mp_contact h2{

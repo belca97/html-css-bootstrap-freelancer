@@ -11,19 +11,29 @@
 <body>
 
  <!-- inizio header  -->
-    <div class="container-sm">
         <header>
-            <nav>
-                <div class="row box ms-1 me-1">
-                    <div class="col-sm-11 mp_flex-start">START BOOTSTRAP</div>
-                    <div class="col-sm-1 mp_flex-end"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                      </svg></i>
-                    </div>
-                </div>    
-            </nav>    
-        </header>    
-    </div>
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light mp_background-darkblue">
+                <div class="container-fluid">
+                  <a class="navbar-brand ms-lg-4 ms-md-4 k text-white" href="#">Start bootstrap</a>
+                  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-center me-lg-4 me-md-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-itemk">
+                        <a class="nav-link text-white" href="#">About</a>
+                      </li>
+                      <li class="nav-itemk">
+                        <a class="nav-link text-white">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+             </nav> 
+        </header>
 <!-- fine header  -->
 
 
@@ -66,20 +76,22 @@
 
     <main>
         <div class="container-sm container-md container-lg">
-            <div class="row">
-                <img src="img/cabin.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
-                <img src="img/cake.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
-                <img src="img/circus.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
-                <img src="img/game.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
-                <img src="img/safe.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
-                <img src="img/submarine.png" class="col-md-6 col-lg-4 my-4 img-fluid rounded mx-auto d-block" alt="...">
+            <div class="row g-4 my-2">
+                <img src="img/cabin.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
+                <img src="img/cake.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
+                <img src="img/circus.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
+                <img src="img/game.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
+                <img src="img/safe.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
+                <img src="img/submarine.png" class="col-md-6 col-lg-4 img-fluid rounded mx-auto d-block" alt="...">
             </div>
         </div>
 
 
-        <section class="container-sm container-md container-lg mp_about">
+        <section class="mp_about">
 
-            <h2>ABOUT</h2>
+            <div class="container-sm container-md container-lg">
+                
+            <h2 class="pt-2">ABOUT</h2>
             <div class="mp_container">
                 <div class="mp_whiteline mp_float-left-45"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mp_float-left-10" viewBox="0 0 16 16">
@@ -89,23 +101,25 @@
             </div>
 
             <div class="row">
-                <p class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vel. Ea, odit modi vitae facere,
+                <p class="col-md-6 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vel. Ea, odit modi vitae facere,
                     molestiae, porro nihil suscipit dolores ducimus minus earum blanditiis mollitia voluptatum excepturi
                      eligendi asperiores fuga. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit praesentium
                       eaque corporis consectetur, debitis, sequi ea facere nulla mollitia velit laborum quod facilis quisquam.
                 Magnam, corporis similique! Nemo, non magnam?</p>
    
-                <p class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vel. Ea, odit modi vitae facere,
+                <p class="col-md-6 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vel. Ea, odit modi vitae facere,
                    molestiae, porro nihil suscipit dolores ducimus minus earum blanditiis mollitia voluptatum excepturi
                     eligendi asperiores fuga. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit praesentium
                      eaque corporis consectetur, debitis, sequi ea facere nulla mollitia velit laborum quod facilis quisquam.
                Magnam, corporis similique! Nemo, non magnam?</p>
             </div>
 
-            <button type="button" class="btn btn-outline-light"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+            <button type="button b-4" class="btn btn-outline-light"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
                 <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
               </svg> Download</button>
+
+            </div>
 
         </section>
 
@@ -119,7 +133,7 @@
                   </svg>
                 <div class="mp_darkblueline mp_float-left-45"></div>
             </div>
-            
+
         </section>
 
     </main>
