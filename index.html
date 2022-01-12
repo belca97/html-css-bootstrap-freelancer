@@ -23,11 +23,11 @@
                       <li class="nav-item">
                         <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
                       </li>
-                      <li class="nav-itemk">
+                      <li class="nav-item">
                         <a class="nav-link text-white" href="#">About</a>
                       </li>
-                      <li class="nav-itemk">
-                        <a class="nav-link text-white">Contact</a>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -39,7 +39,7 @@
 
 <!-- inizio jumbotron -->
 
-    <div class="jumbotron">
+    <div class="jumbotron py-4">
         <div class="container-fluid">
             <img  class="mp_avatar" src="img/avatar.svg" alt="">
             <h1>Start Bootstrap</h1>
@@ -60,7 +60,7 @@
 
     <!-- inizio portfolio -->
     <section class="mp_portfolio container-sm container-md container-lg">
-        <p>PORTFOLIO</p>
+        <h2>Portfolio</h2>
         <div class="mp_container">
             <div class="mp_darkblueline mp_float-left-45"></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mp_float-left-10" viewBox="0 0 16 16">
@@ -72,7 +72,9 @@
     </section>
     <!-- fine portfolio -->
 
-    <!-- inizio main foto e about -->
+    <!-- inizio main foto about e contatti -->
+
+    <!-- inizio foto  -->
 
     <main>
         <div class="container-sm container-md container-lg">
@@ -86,13 +88,17 @@
             </div>
         </div>
 
+    <!-- fine foto  -->
 
+
+
+        <!-- inizio about  -->
         <section class="mp_about">
 
-            <div class="container-sm container-md container-lg">
+            <div class="container-sm container-md container-lg py-4">
                 
-            <h2 class="pt-2">ABOUT</h2>
-            <div class="mp_container">
+            <h2>ABOUT</h2>
+            <div class="mp_container mb-2">
                 <div class="mp_whiteline mp_float-left-45"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mp_float-left-10" viewBox="0 0 16 16">
                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -123,22 +129,44 @@
 
         </section>
 
+      <!-- fine about  -->
 
-        <section class="container-sm mp_contact">
-            <H2>CONTACT ME</H2>
+        <!-- inizio contatti  -->
+
+        <section class="container-sm">
+            <H2 class="mb-3 text-center">CONTACT ME</H2>
             <div class="mp_container">
                 <div class="mp_darkblueline mp_float-left-45"></div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mp_float-left-10" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mp_float-left-10" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
                 <div class="mp_darkblueline mp_float-left-45"></div>
             </div>
+               <form class="mt-4">
+                <div class="mb-3">
+                  <input type="email" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Email adress" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <div class="mb-3">
+                    <input type="email" class="form-control border-top-0 border-start-0 border-end-0" placeholder="Phone number" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <div class="mb-3">
+                    <input type="email" class="form-control border-top-0 border-start-0 border-end-0 border-bottom-0" placeholder="Message" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
 
+                  <button type="button" class="btn btn-success border-top">Send</button>
+
+              </form>
         </section>
+
+      <!-- inizio contatti  -->
+
 
     </main>
 
-     <!-- fien main foto e about-->
+     <!-- fien main foto about e contatti-->
 
 
     <footer>

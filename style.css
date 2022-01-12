@@ -23,9 +23,6 @@
     align-items: center;
 }
 
-.box{
-    height: 50px;
-}
 
 .mp_float-left-10{
     float: left;
@@ -66,6 +63,9 @@ header{
     right: 0;
 }
 
+.nav-item a:hover {
+    border-bottom: 1px solid white;
+}
 /* fine header */
 
 
@@ -133,14 +133,8 @@ main img{
 
 /* inizio contatti */
 
-.mp_contact{
-    text-align: center;
-    margin-top: 20px;
-}
-
 .mp_contact h2{
     margin-bottom: 10px;
 }
-
 
 /* fine contatti */
