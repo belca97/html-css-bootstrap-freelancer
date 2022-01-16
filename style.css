@@ -47,7 +47,7 @@
 }
 
 .mp_background-darkblue{
-    background-color: rgb(35, 35, 80);
+    background-color: rgb(44, 62, 80);
 }
 
 
@@ -67,7 +67,7 @@ header{
 }
 
 .mp_navbar-link:hover {
-    color: aqua !important;
+    color: rgb(26, 188, 156) !important;
 }
 /* fine header */
 
@@ -75,7 +75,7 @@ header{
 /* inizio jumbotron */
 
 .jumbotron{
-    background-color: aqua;
+    background-color: rgb(26, 188, 156);
     text-align: center;
     color: white;
     margin-top: 50px;
@@ -118,18 +118,17 @@ header{
 /* inizio main foto e about */
 
 main img{
-    padding: 10px 0px;
     width: 100%;
 }
 
 .mp_portfolio_item{
     position: relative;
-    overflow: hidden !important;
     border-radius: 5px;
 }
 
 .mp_layover{
     position: absolute;
+    overflow: hidden !important;
     display: none ;
     top: 0;
     left: 0;
@@ -140,11 +139,13 @@ main img{
 
 .mp_portfolio_item:hover .mp_layover{
     display: flex !important;
+    overflow: hidden !important;
+    border-radius: 3px;
 }
 
 .mp_about{
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(26, 188, 156);
     text-align: center;
     color: white;
     margin-top: 20px;
@@ -168,11 +169,17 @@ main img{
 
 .mp_footer-bottom{
     background-color: #3a546d;
+    height: 50px;
 }
 
-.mp_start-bootstrap:hover{
-    border-bottom: 1px solid aqua;
-    color: aqua ;
+.mp_start-bootstrap{
+    color: rgb(26, 188, 156) !important;
+}
+
+.mp_border-circle{
+    padding: 7px 7px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 /* fine footer */
